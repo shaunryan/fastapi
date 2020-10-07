@@ -39,6 +39,7 @@ async def read_item(item_id: str, q: Optional[str] = None):
         return {"item_id": item_id, "q": q}
     return {"item_id": item_id}
 
+
 # Query Parameter Type Conversion
 # --------------------------------------
 
